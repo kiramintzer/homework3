@@ -1,0 +1,113 @@
+/* I worked together with Dominique Roitman on the Homework */
+body{
+    font-family: "Quicksand", sans-serif;
+    color: black;
+    background-color: #dddddd;
+    background-image: url("../images/pidgeon-background.jpg"); 
+    background-repeat: no-repeat;
+    padding:20px;
+  }
+
+  h1{
+    line-height:1.5em;
+    font-size: 2em;
+    color: #c12258;
+  }
+
+  p{
+    color: black;
+    font-size: 18px;
+    padding-top: 15px;
+  }
+
+  a{
+    font-size: 18px; 
+    color: #c12258;
+    font-style: underline;
+  }
+
+  a:focus{ 
+    border: 1px solid red;
+  }
+
+  table{
+    border: 2px solid black;
+    border-collapse: separate;
+    border-radius: 10px;
+  }
+
+  th{
+    text-align: center;
+    width: 150px;
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  tbody th{
+    border-top: 2px solid black;
+  }
+
+  
+  .rowhead{
+      color:black;
+  }
+
+  .colhead{
+    background-color: #7e0830;
+  }
+
+  .colhead:first-child{
+    border-radius: 10px 0 0 0;
+  }
+
+  .colhead:last-child{
+    border-radius: 0 10px 0 0;
+  }
+
+
+  td{
+    text-align: center;
+    border-top:2px solid black;
+  }
+
+    tr:nth-child(even) {background: #dddddd}
+    tr:nth-child(odd) {background: rgba(0, 0, 0, 0)}
+
+tr:hover{
+    background-color: #fab9cf;
+}
+
+tbody tr:last-child th:first-child{
+  border-bottom-left-radius: 10px;
+}
+
+tbody tr:last-child td:last-child{
+  border-bottom-right-radius: 10px;
+}
+ 
+
+footer{
+    color: white;
+    background-color: black;
+    padding-bottom: 15px;
+    height: 60px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+.datacite {
+  padding-bottom: 100px;
+}
+
+footer p{
+    color: white;
+}
+
+
+/* (an+b) to do every third item ex: 3n+6 */
+
